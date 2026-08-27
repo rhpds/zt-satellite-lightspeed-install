@@ -1,0 +1,16 @@
+lab:
+  name: "Red Hat Satellite LightSpeed Install Lab"
+  shortname: "zt-satellite-lightspeed-install"
+  maintainer: "Matthew Yee (myee@redhat.com)"
+
+  description:
+    summary: Install Lightspeed on-premises services in Satellite.
+    goal: Learn how to install Lightspeed on-premises services in Satellite.
+    concepts:
+     - "Satellite"
+    use_case: Lightspeed on-premises services provide tools for managing and monitoring your on-premises infrastructure without requiring internet connectivity.
+    time_to_complete: 10 minutes
+
+  git_ref:
+    production: "main"
+    development: "main"
