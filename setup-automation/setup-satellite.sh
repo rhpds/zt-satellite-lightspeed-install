@@ -22,8 +22,8 @@ satellite-installer --iop-ensure absent
 podman rmi -a
 
 # Log into Red Hat Container Registry.
-mkdir -p ~/.config/containers
-cat <<EOF> ~/.config/containers/auth.json
+
+cat <<EOF> /etc/foreman/registry-auth.json
 {
     "auths": {
       "registry.redhat.io": {
