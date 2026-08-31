@@ -17,3 +17,6 @@ hammer host delete --name satellite.lab
 
 # Uninstall IoP
 satellite-installer --iop-ensure absent
+
+# Delete all images.
+podman rmi -a
