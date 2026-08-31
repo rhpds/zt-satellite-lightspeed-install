@@ -12,15 +12,14 @@ Red Hat Lightspeed on premises brings the full power of a vulnerability monitori
 
 == Install Red Hat Lightspeed in Satellite
 
-Switch to the `satellite.lab terminal` tab and run the following command to install Red Hat Lightspeed in Satellite:
+Switch to the `satellite.lab terminal` tab.
+
+.Switch to the `satellite.lab terminal` tab
+image::satellite-lab-tab.png[]
 
 Run the following command to install Red Hat Lightspeed in Satellite:
+
 [source,bash,run]
 ----
 satellite-installer --enable-iop
 ----
-
-The output should be similar to the following screenshot below.
-
-.Red Hat Lightspeed installation output
-image::installation-output.png[]
