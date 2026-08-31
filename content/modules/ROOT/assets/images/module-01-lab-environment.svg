@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="330" fill="#1b1f27"/>
+
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" fill="#f2f4f8" font-size="20" font-weight="bold">Lab Environment</text>
+
+  <!-- Satellite Server -->
+  <rect x="310" y="60" width="280" height="90" rx="8" fill="#2a2f3a" stroke="#e6a23c" stroke-width="2"/>
+  <text x="450" y="87" text-anchor="middle" fill="#f2f4f8" font-size="16" font-weight="bold">Red Hat Satellite Server</text>
+  <text x="450" y="107" text-anchor="middle" fill="#c3c9d4" font-size="12">satellite.lab</text>
+  <text x="450" y="125" text-anchor="middle" fill="#c3c9d4" font-size="12">Preinstalled &amp; content synchronized</text>
+  <text x="450" y="141" text-anchor="middle" fill="#c3c9d4" font-size="12">Manages hosts, content, and subscriptions</text>
+
+  <!-- Arrows down to managed hosts -->
+  <line x1="400" y1="150" x2="270" y2="225" stroke="#8a94a6" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="150" x2="630" y2="225" stroke="#8a94a6" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="290" y="185" fill="#c3c9d4" font-size="11">register /</text>
+  <text x="280" y="199" fill="#c3c9d4" font-size="11">manage content</text>
+  <text x="580" y="185" fill="#c3c9d4" font-size="11">register /</text>
+  <text x="590" y="199" fill="#c3c9d4" font-size="11">manage content</text>
+
+  <!-- rhel1 -->
+  <rect x="120" y="225" width="220" height="55" rx="8" fill="#2a2f3a" stroke="#6bbf6b" stroke-width="2"/>
+  <text x="230" y="247" text-anchor="middle" fill="#f2f4f8" font-size="15" font-weight="bold">RHEL Host</text>
+  <text x="230" y="267" text-anchor="middle" fill="#c3c9d4" font-size="12">rhel1.lab</text>
+
+  <!-- rhel2 -->
+  <rect x="560" y="225" width="220" height="55" rx="8" fill="#2a2f3a" stroke="#6bbf6b" stroke-width="2"/>
+  <text x="670" y="247" text-anchor="middle" fill="#f2f4f8" font-size="15" font-weight="bold">RHEL Host</text>
+  <text x="670" y="267" text-anchor="middle" fill="#c3c9d4" font-size="12">rhel2.lab</text>
+</svg>

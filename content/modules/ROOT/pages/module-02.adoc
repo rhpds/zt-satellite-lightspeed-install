@@ -1,0 +1,5 @@
+:imagesdir: ../assets/images
+
+== Install Red Hat Lightspeed on the Satellite server
+
+Red Hat Lightspeed services are provided as a set of containers 

@@ -2,7 +2,8 @@
 
 == Introduction
 
-TODO: Introduce the lab, its goal, and what the participant will accomplish.
+The goal of this lab is to demonstrate the installation and configuration of Red Hat Lightspeed on a Red Hat Satellite server.
+You will also register the RHEL hosts to the Satellite server and verify that the hosts are being monitored by the Red Hat Lightspeed services.
 
 == Lab Environment
 
@@ -11,9 +12,19 @@ The lab environment consists of the following
 - Red Hat Satellite Server (Satellite is preinstalled and content/software is synchronized.)
 - Two Red Hat Enterprise Linux hosts, *rhel1.lab* and *rhel2.lab*.
 
+image::module-01-lab-environment.svg[Lab Environment Diagram,width=700,align="center"]
+
+The Satellite server (*satellite.lab*) is preinstalled and manages both RHEL hosts,
+handling content synchronization, registration, and subscriptions.
+
 Over the course of this lab, you will:
 
-. TODO: List the high-level steps the participant will follow.
+. Install Red Hat Lightspeed on the Satellite server.
+. Download the latest cvemap.xml vulnerability database.
+. Register the RHEL hosts to the Satellite server.
+. Verify the RHEL hosts are being monitored by the Red Hat Lightspeed services.
+
+image::module-01-lab-environment-v2.svg[Lab Environment Diagram,width=700,align="center"]
 
 == Log into the Web UI
 

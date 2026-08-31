@@ -14,3 +14,6 @@ hammer host delete --name satellite.lab
 # cp cvemap.xml /var/lib/foreman/
 
 # TODO: Add any additional lab-specific reset/setup steps here.
+
+# Uninstall IoP
+satellite-installer --iop-ensure absent
