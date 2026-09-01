@@ -24,6 +24,13 @@ Run the following command to install Red Hat Lightspeed in Satellite:
 satellite-installer --enable-iop
 ----
 
+IMPORTANT: This operation will take a few minutes to complete.
+
+When the installation is complete, you will see the following output:
+
+.Red Hat Lightspeed installation complete
+image::installation-output.png[]
+
 Click back on the `Satellite Web UI` tab. You should see the following menu in Figure 2. For comparison,
 here's the menu you would see without installing Red Hat Lightspeed in Figure 3:
 

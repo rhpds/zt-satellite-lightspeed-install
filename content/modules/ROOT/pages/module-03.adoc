@@ -4,4 +4,18 @@
 
 The cvemap.xml file is a metadata file that contains the latest CVE information and is used by the Lightspeed vulnerability service to check for vulnerabilities in systems managed by Satellite.
 
-== 
+== Download the latest cvemap.xml and copy it to the Foreman directory
+
+In the `satellite.lab terminal` tab, run the following commands to download the latest cvemap.xml.
+
+[source,bash,run]
+----
+curl -o cvemap.xml https://security.access.redhat.com/data/meta/v1/cvemap.xml
+----
+
+While still in the `satellite.lab terminal` tab, run the following command to copy the cvemap.xml file to the Foreman directory.
+
+[source,bash,run]
+----
+cp cvemap.xml /var/lib/foreman/
+----
