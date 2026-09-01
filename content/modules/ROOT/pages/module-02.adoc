@@ -21,7 +21,7 @@ Run the following command to install Red Hat Lightspeed in Satellite:
 
 [source,bash,run]
 ----
-satellite-installer --iop-ensure present
+satellite-installer --enable-iop
 ----
 
 Click back on the `Satellite Web UI` tab. You should see the following menu in Figure 2. For comparison,
@@ -37,3 +37,5 @@ a|
 .Red Hat Lightspeed menu in Satellite Web UI without installing Red Hat Lightspeed
 image::without-lightspeed-installed.png[]
 |===
+
+NOTE: You may need to refresh the page to see the new menu. Click the `Refresh` button shown here: image:refresh-button.png[]

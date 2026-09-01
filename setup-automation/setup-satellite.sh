@@ -23,7 +23,7 @@ podman rmi -a
 
 # Log into Red Hat Container Registry.
 
-cat <<EOF> /etc/foreman/registry-auth.json
+cat <<REGISTRY_AUTH_EOF > /etc/foreman/registry-auth.json
 {
     "auths": {
       "registry.redhat.io": {
@@ -31,4 +31,18 @@ cat <<EOF> /etc/foreman/registry-auth.json
       }
     }
   }
-EOF
+REGISTRY_AUTH_EOF
+
+# Add a satellite-installer wrapper function so participants can use the shorter
+# `satellite-installer --enable-iop` in place of `satellite-installer --iop-ensure present`.
+cat <<'BASHRC_EOF' >> /root/.bashrc
+
+satellite-installer() {
+  if [ "$1" = "--enable-iop" ]; then
+    shift
+    command satellite-installer --iop-ensure present "$@"
+  else
+    command satellite-installer "$@"
+  fi
+}
+BASHRC_EOF
