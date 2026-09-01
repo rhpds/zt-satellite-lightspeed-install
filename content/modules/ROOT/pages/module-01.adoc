@@ -21,7 +21,6 @@ Over the course of this lab, you will:
 
 . Install Red Hat Lightspeed on the Satellite server.
 . Download the latest cvemap.xml vulnerability database.
-. Register the RHEL hosts to the Satellite server.
 . Verify the RHEL hosts are being monitored by the Red Hat Lightspeed services.
 
 image::module-01-lab-environment-v2.svg[Lab Environment Diagram,width=700,align="center"]
