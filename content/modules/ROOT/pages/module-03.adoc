@@ -1,0 +1,7 @@
+:imagesdir: ../assets/images
+
+== Download the latest cvemap.xml
+
+The cvemap.xml file is a metadata file that contains the latest CVE information and is used by the Lightspeed vulnerability service to check for vulnerabilities in systems managed by Satellite.
+
+== 
