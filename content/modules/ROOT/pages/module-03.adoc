@@ -19,3 +19,10 @@ While still in the `satellite.lab terminal` tab, run the following command to co
 ----
 cp cvemap.xml /var/lib/foreman/
 ----
+
+IMPORTANT: On each of the RHEL 10 client systems, run the following command to refresh Red Hat Lightspeed.
+
+[source,bash,run,IMPORTANT]
+----
+insights-client --register
+----
